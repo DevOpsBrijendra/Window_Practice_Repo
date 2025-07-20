@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "RG_Practice"
-    storage_account_name = "rgpracticestorage"
-    container_name       = "rgpracticecontainer"
+    resource_group_name  = "rg-dev"
+    storage_account_name = "storageaccounttfstate098"
+    container_name       = "container-dev"
     key                  = "terraform.tfstate"
     tenant_id      = "ecc8db67-d45e-4b38-9f31-423f3b5ca490"
   }
