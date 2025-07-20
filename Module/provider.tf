@@ -10,7 +10,7 @@ terraform {
     storage_account_name = "rgpracticestorage"
     container_name       = "rgpracticecontainer"
     key                  = "terraform.tfstate"
-    subscription_id      = "f732a1d0-ce01-4a76-a731-84b6a6286211"
+    tenant_id      = "ecc8db67-d45e-4b38-9f31-423f3b5ca490"
   }
 }
 
