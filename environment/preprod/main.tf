@@ -9,6 +9,12 @@ module "rg1" {
   resource_group_location = "East US"
 }
 
+module "rg2" {
+  source              = "../../module/azurerm_resource_group"
+  resource_group_name = "rg-preprod-002"
+  resource_group_location = "East US"
+}
+
 module "storage_account" {
   source                   = "../../module/azurerm_storage_account"
   depends_on              = [module.resource_group]
