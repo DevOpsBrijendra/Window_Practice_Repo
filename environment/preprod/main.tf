@@ -11,7 +11,7 @@ module "rg1" {
 
 module "rg2" {
   source              = "../../module/azurerm_resource_group"
-  resource_group_name = "rg-preprod-002"
+  resource_group_name = "rg-preprod-003"
   resource_group_location = "East US"
 }
 
