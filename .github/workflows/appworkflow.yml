@@ -1,0 +1,11 @@
+name: "WebApp"
+on: 
+  push:     
+    branches:
+      - main
+      - 'feature/101'
+
+jobs:
+  test:
+    runs-on: self-hosted
+   
